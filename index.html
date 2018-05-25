@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+        <title>NewWork</title>
+		<link rel = 'stylesheet' href = 'style.css'>
+	</head>
+	<body>
+<!-- 		<div class = 'container'>
+			<div class = 'keyboard key__number'>
+				<input type = 'button' class = 'btn btn1' value = '1'>	
+				<input type = 'button' class = 'btn btn2' value = '2'>		
+				<input type = 'button' class = 'btn btn3' value = '3'>
+				<input type = 'button' class = 'btn btn4' value = '4'>	
+				<input type = 'button' class = 'btn btn5' value = '5'>
+				<input type = 'button' class = 'btn btn6' value = '6'>	
+				<input type = 'button' class = 'btn btn7' value = '7'>		
+				<input type = 'button' class = 'btn btn8' value = '8'>	
+				<input type = 'button' class = 'btn btn9' value = '9'>
+				<input type = 'button' class = 'btn btn0 big' value = '0'>
+			</div>	
+
+			<div class = 'keyboard key__operations'>
+				<input type = 'button' value = '+' class = 'btn btnplus'>	
+				<input type = 'button' value = '-' class = 'btn btnminus'>
+				<input type = 'button' value = 'C' class = 'btn btnclear big'>
+				<input type = 'button' value = '*' class = 'btn btnmulti'>
+				<input type = 'button' value = '/' class = 'btn btndivide'>
+				<input type = 'button' value = '=' class = 'btn btnequal big'>
+				<input type = 'button' value = '<<' class = 'btn btndelete big'>
+				<input value = '1' type = 'text' class = 'inputline' readonly>
+			</div>
+		</div> -->
+		
+		<table>
+			<tr>
+				<td colspan = 5>
+					<input type='text' id='result'>
+				</td>	
+			</tr>
+			<tr>
+				<td>
+					<button class = 'num-button one' data-value = '1'>1</button>
+				</td>
+				<td>
+					<button class = 'num-button two' data-value = '2'>2</button>
+				</td>
+				<td>
+					<button class = 'num-button three' data-value = '3'>3</button>
+				</td>
+				<td>
+					<button class = 'function-button add' data-function = 'plus'>+</button>
+				</td>
+				<td>
+					<button class = 'clear-button clear' data-function = 'clear'>C</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class = 'num-button four' data-value = '4'>4</button>
+				</td>
+				<td>
+					<button class = 'num-button five' data-value = '5'>5</button>
+				</td>
+				<td>
+					<button class = 'num-button six' data-value = '6'>6</button>
+				</td>
+				<td>
+					<button class = 'function-button subtract' data-function = 'minus'>-</button>
+				</td>
+				<td>
+					<button class = 'equals-button' data-function = 'equal'>=</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class = 'num-button seven' data-value = '7'>7</button>
+				</td>
+				<td>
+					<button class = 'num-button eight' data-value = '8'>8</button>
+				</td>
+				<td>
+					<button class = 'num-button nine' data-value = '9'>9</button>
+				</td>
+				<td>
+					<button class = 'function-button divide' data-function = 'divide'>/</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+					<button class = 'num-button zero' data-value = '0.0'>0</button>
+				</td>
+				<td>
+					<button class = 'num-button dot' data-value = '.'>.</button>
+				</td>
+				<td>
+					<button class = 'function-button multiply' data-function = 'multiply'>*</button>
+				</td>
+			</tr>
+	<script src = 'jquery-3.3.1.min.js'> </script>
+	<script src="script2.js"> </script>
+	</body>
+</html>
+
